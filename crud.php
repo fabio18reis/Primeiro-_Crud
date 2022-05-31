@@ -79,7 +79,7 @@ switch ($acao){
             echo  "<td width = '118'><font size = '1' face=verdana, Arial,  Helvetica, sans-serif'>Mensagem:</font></td>";
             echo  "<td rowspan='2'><font size='2'>";
             echo  "<style>Textarea[resize:none;}</style>";
-            echo  "<textarea name='mensagem' cols='50' rows='3' class='formbutton'>" .htmlspecialchars($registro['user_mensagem']) . "</textarea>";
+            echo  "<textarea name='mensagem' id='mensagem' cols='50' rows='3' class='formbutton'>" .htmlspecialchars($registro['user_mensagem']) . "</textarea>";
             echo "</font></td>";
             echo "<tr>";
 
