@@ -52,7 +52,7 @@ switch ($acao){
             echo  "<tr>";
 
             echo "<tr>";
-            echo  "<td width = '118'><font size = '1' face=verdana, Arial,  Helvetica, sans-serif'>Nome:</font></td>";
+            echo  "<td width = '118'><font size = '4' face=verdana, Arial,  Helvetica, sans-serif'>Nome:</font></td>";
             echo  "<td rowspan='2'><font size='2'>";
             echo  "<style>Textarea[resize:none;}</style>";
             echo  "<input type=text name='nome' id='nome' value='".($registro['user_name'])."'>"; 
