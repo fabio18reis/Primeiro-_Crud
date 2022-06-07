@@ -39,6 +39,8 @@ switch ($acao){
         $sql = 'SELECT * FROM users WHERE user_id =' .$id;
         $resultado = mysqli_query($conexao,$sql) or die ("Erro ao Editar Registros");
 
+        echo "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor' crossorigin='anonymous'>
+        ";
         echo "<Form method = 'post' name = 'dados' action='crud.php?acao=atualizar' onSubmit='return Enviardados();'>";
         echo "<table width='588' border ='0' align = 'center'>";
         
@@ -160,6 +162,7 @@ switch ($acao){
       
         
         echo"<meta charset='UTF-8'>";
+        
         echo"<center><table border=1>";
         echo"<tr>";
         echo"<th>CODIGO</th>";
